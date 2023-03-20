@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 app.use(compression());
 
-const OPENAI_API_KEY = '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'
+const OPENAI_API_KEY = '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'
 const configuration = new Configuration({
     apiKey: OPENAI_API_KEY
 });
