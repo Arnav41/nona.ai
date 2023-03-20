@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+
+                                                
+}
+
+body {
+    background-color: #000;
+    padding: 20px;
+}
+
+#history-container {
+    margin-top: 20px;
+}
+
+.inputs {
+    color: #ddd;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+.outputs {
+    color: #00d427;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 13px;
+}
+
+.errors {
+    color: #d40e00;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.input-output-container {
+    border-left: 2px solid #00d427;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.error-container {
+    border-left: 2px solid #d40e00;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#prompt {
+    background-color: #000;
+    border: none;
+    outline: none;
+    color: #ddd;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 13px;
+    width: 30ch;
+}
+
+#prompt-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prompt-style {
+    color: #0000ff;
+    font-weight: 800;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #111;
+    color: #fff;
+    padding: 0 20px;
+  }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00d427;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-title a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.nav-title a:hover {
+    color: #00d427;
+}
+
+
+#loader {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 255, 21);
+    border-radius: 50%;
+    animation: expansion 1s linear infinite;
+    display: none;
+}
+  
+@keyframes expansion{
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+  }
+  
+  

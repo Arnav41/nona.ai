@@ -1,0 +1,19 @@
+{
+    "name": "nona-ai",
+    "version": "1.0.0",
+    "description": "just a chat gpt client",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx nodemon src/index.js"
+    },
+    "author": "Arnav41",
+    "license": "ISC",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.21",
+        "openai": "^3.2.1"
+    }
+}
